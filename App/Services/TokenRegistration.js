@@ -7,7 +7,6 @@ export default {
         tokenRef
             .set({
                 notification_token: notification_token,
-                time: new Date(Date.now()).toLocaleString(),
             });
     },
 
